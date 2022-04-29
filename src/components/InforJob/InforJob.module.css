@@ -1,0 +1,32 @@
+.InforJob_Box {
+    margin-top: 50px;
+}
+.InforJob_Box_inner {
+    border: thin solid #ececec;
+    box-shadow: 0px 20px 60px -6px rgb(0 0 0 / 4%);
+    border-radius: 15px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.InforJob_Box_item {
+    margin: 15px 0px;
+}
+.InforJob_Box_inner_icon {
+    color: #a0abb8;
+}
+.InforJob_Box_inner_icon svg {
+    width: 20px;
+}
+.InforJob_Box_text_infor {
+    flex: 1;
+}
+.InforJob_Box_text_infor span {
+    margin-bottom: 15px;
+    color: #727272;
+}
+.InforJob_Box_text_infor h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #37404f;
+}

@@ -1,0 +1,57 @@
+.banner_box {
+    background-color: #E9F7FF;
+    padding: 55px 0px;
+    position: relative;
+}
+.banner_box::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 1;
+    width: 100px;
+    background: url("http://wp.alithemes.com/html/jobhub/frontend/assets/imgs/page/job-single/bg-header-left.svg") no-repeat right bottom;
+}
+.banner_box::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 543px;
+    background: url("http://wp.alithemes.com/html/jobhub/frontend/assets/imgs/page/job-single/bg-header-right.svg") no-repeat right bottom;
+}
+.banner_box h1 {
+    font-size: 44px;
+    margin: 0px;
+}
+.company_infor img {
+    max-width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.company_infor > div h3 {
+    font-size:22px;
+    font-weight: 600;
+}
+.company_infor > div a {
+    color: #9777fa;
+    font-size: 14px;
+}
+.banner_title ul {
+    list-style: none;
+}
+.banner_title ul li {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.banner_title ul li a {
+    color: #9777fa;
+}
+@media (max-width: 500px) {
+    .banner_title h1 {
+        font-size: 32px;
+    }
+}

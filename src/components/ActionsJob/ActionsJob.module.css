@@ -1,0 +1,39 @@
+.Actions_box {
+    margin-top: 30px;
+    width: 100%;
+}
+.ActionsJob_control_button a svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.ActionsJob_control_button a {
+    border: 1px solid rgba(6, 18, 36, 0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #111112;
+    font-size: 14px;
+    margin-right: 10px;
+    transition-duration: 0.2s;
+}
+.ActionsJob_control_button a:hover {
+    color: #ffffff;
+    background-color: #9777fa;
+    transform: translateY(-3px);
+}
+.ActionsJob_button_active {
+    background-color: #9777fa !important;
+    color: #ffffff !important;
+}
+.ActionsJob_button_active:hover {
+    background-color: #8a6be6 !important;
+}
+@media (max-width: 424px) {
+    .ActionsJob_control_button a span {
+        display: none;
+    }
+    .ActionsJob_control_button a svg {
+        margin-right: 0px;
+    }
+}
