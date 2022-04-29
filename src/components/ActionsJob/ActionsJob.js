@@ -5,7 +5,7 @@ const ActionsJob = () => {
     return (
     <>
     <div className={`${styles.Actions_box} w-100`}>
-        <div className="d-flex w-100 align-items-center flex-wrap">
+        <div className="w-100 align-items-center d-flex flex-wrap">
             <div className={`${styles.ActionsJob_control_button} col-lg-6 text-center text-lg-left`}>
                 <Link className={`${styles.ActionsJob_button_active} d-inline-block mb-2`} to="/">Apply now</Link>
                 <Link className="d-inline-block mb-2" to="/">Save job</Link>

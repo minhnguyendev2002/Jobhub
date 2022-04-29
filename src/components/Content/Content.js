@@ -45,6 +45,7 @@ const Content = () => {
                             <span className="position-relative">AliThemes</span>
                         </div>
                     </div>
+                    
                     <ActionsJob />
                 </div>
             </div>

@@ -7,6 +7,11 @@
 .Content_inner {
     color: #37404e;
 }
+.Content_inner_text {
+    padding: 50px 0px;
+    border-bottom: 1px solid rgba(6, 18, 36, 0.1);
+    margin-bottom: 50px;
+}
 .Content_inner_text p {
     margin-bottom: 20px;
     line-height: 34px;
